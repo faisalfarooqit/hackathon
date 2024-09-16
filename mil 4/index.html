@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faisal's Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="resume-container">
+<div class="left-section">
+</div>
+<div class="right-section">
+    <h1>Faisal's Dynamic Resume</h1>
+    <form id="resume-form">
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="Name"><b>Name:</b></label>
+            <input type="text" id="Name" placeholder="Enter Your Name" required>
+
+            <label for="Email"><b>Email:</b></label>
+            <input type="Email" id="Name" placeholder="Enter Your Email" required>
+
+            <label for="Phone"><b>Phone:</b></label>
+            <input type="Phone" id="Name" placeholder="Enter Your Phone" required>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>EDUCATION</legend>
+            <label for="Edication"><b>Education:<b></label>
+                <textarea id="Education" placeholder="Enter Your Education" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>EXPERIENCE</legend>
+            <label for="Experience"><b>Experience:</b></label>
+            <textarea id="Experience" placeholder="Enter Your Experience" rows="4"required></textarea>
+</fieldset>
+<fieldset>
+    <legend>SKILLS</legend>
+    <label for="Skills"><b>Skills:<b></label>
+        <textarea id="Skills" placeholder="Enter Your Skills" rows="4" required></textarea>
+</fieldset>
+<button type="Submit"><b>Generate resume</b></button>
+    </form>
+    <br>
+    <div id="resume-display" contenteditable="true">
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
